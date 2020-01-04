@@ -1,0 +1,50 @@
+@media(max-width: 600px){
+    
+    .products{
+        display: inherit;
+        height: auto;
+    
+    }
+
+    .product{
+        margin-top: auto;
+    }
+
+    .main_section{
+        padding: 4%;
+    }
+
+    .features, .testimonials, .testimonial{
+        display: inherit;
+
+    }
+
+    .testimonials, .testimonial{
+        justify-content: center;
+    }
+
+    .headline_left{
+        text-align: center;
+        padding: 20px;
+    }
+
+    .col-4, .col-8{
+        text-align: center;
+    }
+
+    .col-4 img{
+        width: 200px;
+        height: 200px;
+        padding: 0;
+    }
+
+    .col-8 p{
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+    .col-8 h3{
+        margin-top:20px;
+    }
+    
+}
