@@ -14,6 +14,10 @@
         padding-inline-start: 4%;
     }
 
+    .row{
+        margin-bottom: 19px;
+    }
+
     .features, .testimonials, .testimonial{
         display: inherit;
 
@@ -46,5 +50,23 @@
     .col-8 h3{
         margin-top:20px;
     }
+
+    #producto-2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #div-producto{
+        order: 2;
+    }
+
+    #div-gato{
+        order: 1;
+    }
+
+    #producto-3{
+        margin-top: 55px;
+    }
+
     
 }
