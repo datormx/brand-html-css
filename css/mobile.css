@@ -11,7 +11,7 @@
     }
 
     .main_section{
-        padding: 4%;
+        padding-inline-start: 4%;
     }
 
     .features, .testimonials, .testimonial{
@@ -27,20 +27,20 @@
         text-align: center;
         padding: 20px;
     }
+    
 
     .col-4, .col-8{
         text-align: center;
+        padding-inline-start: 10px;
+        width: 90%;
     }
 
     .col-4 img{
-        width: 200px;
-        height: 200px;
-        padding: 0;
+        width: 180px;        
     }
 
     .col-8 p{
-        padding-right: 25px;
-        padding-left: 25px;
+        padding-inline-start: 10px;
     }
 
     .col-8 h3{
